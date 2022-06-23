@@ -1,21 +1,107 @@
 .Navbar {
     background-color: black;
-    width: 100%;
+    width: auto;
     height: 65px;
     padding-left: 15%;
     padding-right: 15%;
+    display: flex;
 }
 
 .NABLogo {
     width: auto;
     height: 65px;
+    padding-right: 2%;
+}
+
+.MagnifyingGlass {
+    height: 27px;
+    width: auto;
+}
+
+.QuestionMark {
+    height: 30px;
+    width: auto;
 }
 
 .NavBarButtons {
-    color: white;
     display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2%;
 }
 
 .NavBarButtons a {
+    text-decoration:none;
+    color: white;
+    text-align: center;
+    padding-left: 7px;
+    padding-right: 7px;
 }
+
+.HeaderRightSideDropDownButtonAndArrowAndButton {
+    display: flex;
+    background-color: #3E5158;
+    align-items: center;
+    padding-right: 15px;
+}
+
+.HeaderRightSide {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 50px;
+}
+
+.HeaderRightSideDropDownButton {
+    background-color: #3E5158;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: 65px;
+  }
+  
+.HeaderRightSideDropDown {
+    position: relative;
+    display: inline-block;
+}
+
+.HeaderRightSideDropDownContent {
+    display: none;
+    position: absolute;
+    background-color: #3E5158;
+    min-width: 150px;
+    width: 185px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.HeaderRightSideDropDownContent a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.HeaderRightSideDropDownContent a:hover {background-color: #303f44;}
+
+.HeaderRightSideDropDown:hover .HeaderRightSideDropDownContent {display: block;}
+
+.WhiteDownArrow {
+    height: 20px;
+    width: auto;
+    padding-right: 16px;
+}
+
+.HeaderRightSideLoginButton {
+    background-color: #BE0C00;
+    color: white;
+    padding: 12px 30px 12px 30px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+}
+
+
 
